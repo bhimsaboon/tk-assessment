@@ -1,0 +1,14 @@
+{
+  "alert_threshold": 80,
+  "notification_email": "coreit@techkraft.com",
+  "regions": [
+    "us-east-1",
+    "us-west-2"
+  ],
+  "instance_tag_overrides": {
+    "i-0123456789abcdef0": {
+      "Name": "critical-api-node-1"
+    }
+  }
+}
+
